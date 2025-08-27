@@ -4,12 +4,28 @@
       "userId": "U001",
       "username": "Rnt",
       "password": "12345",
-      "borrowedBooks": []
+      "borrowedBooks": [
+        {
+          "bookId": "B001",
+          "bookName": "The Hobbit",
+          "bookAuthor": "J.R.R. Tolkien",
+          "borrowed": true,
+          "borrowedByUserId": "U001",
+          "borrowDate": "2025-08-27",
+          "expectedReturnDate": "2025-09-03"
+        }
+      ]
     },
     {
       "userId": "U002",
       "username": "RntAgain",
       "password": "password",
+      "borrowedBooks": []
+    },
+    {
+      "userId": "U3",
+      "username": "Atul",
+      "password": "Atul",
       "borrowedBooks": []
     }
   ],
@@ -18,7 +34,10 @@
       "bookId": "B001",
       "bookName": "The Hobbit",
       "bookAuthor": "J.R.R. Tolkien",
-      "borrowed": false
+      "borrowed": true,
+      "borrowedByUserId": "U001",
+      "borrowDate": "2025-08-27",
+      "expectedReturnDate": "2025-09-03"
     },
     {
       "bookId": "B002",
