@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "userId": "U001",
+      "username": "Rnt",
+      "password": "12345",
+      "borrowedBooks": []
+    },
+    {
+      "userId": "U002",
+      "username": "RntAgain",
+      "password": "password",
+      "borrowedBooks": []
+    }
+  ],
+  "books": [
+    {
+      "bookId": "B001",
+      "bookName": "The Hobbit",
+      "bookAuthor": "J.R.R. Tolkien",
+      "borrowed": false
+    },
+    {
+      "bookId": "B002",
+      "bookName": "1984",
+      "bookAuthor": "George Orwell",
+      "borrowed": false
+    },
+    {
+      "bookId": "B003",
+      "bookName": "To Kill a Mockingbird",
+      "bookAuthor": "Harper Lee",
+      "borrowed": false
+    }
+  ]
+}
